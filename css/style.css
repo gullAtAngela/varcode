@@ -1,0 +1,104 @@
+/******************************************************************
+
+		Name: style.css
+		Description: 
+		Author: Thomas Gull
+		Author URI: gulldesign.ch
+		Version: v2.0
+		Release: 2021-04-09
+		License: Public Licence
+
+******************************************************************/
+/*------------------------------------------------------------------------------
+	GENERAL
+------------------------------------------------------------------------------*/
+body { background: url('../img/confectionary.png') }
+
+/*------------------------------------------------------------------------------
+  VARIATIONSKARTE
+------------------------------------------------------------------------------*/
+.cardIndex {
+	display: inline-block;
+	margin: 10px 6px;
+	padding: 10px;
+	background-color: #3B83C8;
+	border: 1px solid #3B83C8;
+	color: #fff;
+	transition: color ease .5s,
+				background-color ease .5s,
+				border ease .5s;
+}
+
+.cardIndex:hover {
+	background: #fff;
+	border: 1px solid #3B83C8;
+	color: #3B83C8;
+	transition: all ease .5s;
+}
+
+/* VarCode List
+------------------------------*/
+ul.varCodeList {
+	float: left;
+	width: 32.6%;
+	margin: 0 1% 40px 0;
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 1.1em;
+}
+
+ul.varCodeList:nth-child(3) { margin-right: 0%; }
+
+ul.varCodeList li:nth-child(odd) {
+	background-color: rgba(82, 112, 157, .1);
+}
+
+ul.varCodeList li:hover {
+	background-color: rgba(82, 112, 157, .3);
+	cursor: default;
+}
+
+span.lightNumber {
+	display: inline-block;
+	width: 20px;
+	color: rgba(21, 54, 106, 1);
+	font-weight: 600;
+	text-align: right;
+}
+
+/*==============================================================================
+  MEDIA QUERIES
+==============================================================================*/
+/*------------------------------------------------------------------------------
+  PRINT
+------------------------------------------------------------------------------*/
+@media print {
+	ul.language {
+		display: none;
+	}
+
+	ul.varCodeList {
+		font-size: .9em;
+		float: left;
+		width: 30%;
+		margin-right: 40px 1% 0 1%;
+	}
+}
+
+/*------------------------------------------------------------------------------
+  MOBILE
+------------------------------------------------------------------------------*/
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+	
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	
+}
+
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+		
+}
