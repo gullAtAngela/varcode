@@ -2327,7 +2327,7 @@ $varCode['603'] = array(
 		85 => "",
 		86 => "",
 		87 => "",
-		88 => "",
+		88 => "80 x 200 cm",
 		89 => "160 x 220 cm",
 		90 => "90 x 190 cm",
 		91 => "90 x 190 cm (Duo-Pack)",
@@ -3729,4 +3729,3 @@ $varCode['F04'] = array(
 	),
 	"additional" => "Variationsfehlerliste"
 );
-?>
