@@ -137,7 +137,7 @@ if (!isset($varCode)) {
 										if ($position == 80) {
 											echo "\t\t</ul>\n";
 											echo "\t\t<ul class=\"varCodeList no-bullet\">\n";
-											echo "\t\t<li><span class=\"title\">...</span></li>\n";
+											echo "\t\t<li><span class=\"title\">Microfaser</span></li>\n";
 										}
 									}
 								}

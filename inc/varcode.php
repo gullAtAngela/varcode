@@ -3513,7 +3513,7 @@ $varCode['702'] = array(
 		98 => "2x 65/65 + 240/240 cm",
 		99 => "2x 65/100 + 240/240 cm",
 	),
-	"additional" => "Microfaser"
+	"additional" => "Bettwäsche"
 );
 
 $varCode['703'] = array(
