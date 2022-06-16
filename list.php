@@ -70,12 +70,12 @@ if (!isset($varCode)) {
 										if ($position == 60) {
 											echo "\t\t</ul>\n";
 											echo "\t\t<ul class=\"varCodeList no-bullet\">\n";
-											echo "\t\t<li><span class=\"title\">Renforcé & Leinen & Perkal & Polycotton & Chambray</span></li>\n";
+											echo "\t\t<li><span class=\"title\">Renforcé</span></li>\n";
 										}
 										if ($position == 80) {
 											echo "\t\t</ul>\n";
 											echo "\t\t<ul class=\"varCodeList no-bullet\">\n";
-											echo "\t\t<li><span class=\"title\">Jersey & Mikrofaser</span></li>\n";
+											echo "\t\t<li><span class=\"title\">Jersey</span></li>\n";
 										}
 									}
 								}
